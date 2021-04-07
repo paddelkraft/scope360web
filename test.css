@@ -1,0 +1,46 @@
+ a[title^='\$'] span {
+            color:white;
+            background-color:black;
+        }
+
+        a[title^='#'] span {
+            color:white;
+            background-color:purple;
+        }
+
+
+        a.js-quickfilter-button[title*='"#'],a.js-quickfilter-button[title*="issuekey in childIssuesOf"]{
+                color:black;
+                background-color:#FFC300  ;
+            }
+        a.js-quickfilter-button[title^='project ']{
+            color:black;
+            background-color:#ffe6f2  ;
+        } 
+        
+        a.js-quickfilter-button[title^='issuetype ']{
+            color:black;
+            background-color:#ccffcc  ;
+        } 
+            
+        a.js-quickfilter-button[title*='"+'],a[title^='+']{
+                    color:black;
+                    background-color:#ccffcc  ;
+                }
+        
+        a.js-quickfilter-button[title*='"*'],a[title^='*']{
+                    color:black;
+                    background-color:#bbb  ;
+                }
+
+        a.js-quickfilter-button[title*='"-'],a[title^='-']{
+                    color:black;
+                    background-color:#ffe6cc  ;
+                }
+        a.js-quickfilter-button[title*="= \."],a.js-quickfilter-button[title*="\(\."]{
+            background-color: #ffe6f2;
+        }
+        a.js-quickfilter-button[title*='\$PI2'],a[title*='\$PI2[0..9]']{
+            color:black;
+            background-color:#e6e6ff  ;
+        }
