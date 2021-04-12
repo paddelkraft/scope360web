@@ -1,0 +1,82 @@
+a.lozenge[title^='#'],a.lozenge[title^='"*'],a.lozenge[title^=\\+],a.lozenge[title^='"_']{
+    color:white;
+    background-color:black !important;
+}
+
+a.lozenge[title^=\\$]{
+    color:white;
+    background-color:MediumPurple !important;
+}
+
+a[title*='"Work Groups"'],a[title*=\\$]{
+    color:white;
+    background-color:MediumPurple ;
+}
+
+
+a[title^=\\$PI]{
+    background-color:palegreen ;
+}
+
+a[title=AtRisk]{
+    color:white;
+    background-color:red !important;
+}
+
+
+a[title=spillover],a[title=Feature]{
+    color:gray;
+    background-color:lightGray ;
+}
+
+a[title^=PI]{
+    color:black;
+    background-color:#fcc2f7 ;
+}
+
+a[title*='"#'],a[title*='"*'],a[title*='"\+'],a[title*='"_']{
+    color:white;
+    background-color:#888  ;
+}
+
+
+
+a[title*='$PI']{
+    background-color:MediumSpringGreen   ;
+}
+
+a[title*=AtRisk]{
+    color:white;
+    background-color:#ffb3b3 ;
+}
+
+a[title*='Service area']{
+
+    background-color:#c3fcff;
+}
+
+a[title*='issuetype']{
+
+    background-color:#ffe6f2;
+}
+
+.ghx-issue.ghx-selected {
+    background: #ffdab3;
+}
+
+.ghx-issue:hover {
+    background: #ffccdd;
+}
+
+a[title=AtRisk]{
+        color:white;
+        background-color:red !important;
+}
+
+a[title*='$FaTS.']{
+        background-color:#ffe699 ;
+    }
+
+a[title*='$SuS.']{
+        background-color:#99ccff ;
+}

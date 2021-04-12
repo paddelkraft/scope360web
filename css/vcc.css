@@ -1,0 +1,71 @@
+a.lozenge[title^='#']{
+    color:white;
+    background-color:black !important;
+}
+
+a.lozenge[title^=\\$]{
+    color:Black;
+    background-color:#ffe6ff !important;
+}
+
+a[title*='Work Group'],a[title*=\\$]{
+    color:Black;
+    background-color:#ffe6ff ;
+}
+
+
+
+a[title=AtRisk]{
+    color:white;
+    background-color:red !important;
+}
+
+
+a[title*='"#']{
+    color:black;
+    background-color:#e6e6ff ;
+}
+
+
+
+a[title*='$PI']{
+    background-color:PowderBlue   ;
+}
+
+a[title*=AtRisk]{
+    color:white;
+    background-color:#ffb3b3 ;
+}
+
+a[title*='issuetype'],a[title*='Backlog Item Type']{
+
+    background-color:#ffff99;
+}
+
+.ghx-issue.ghx-selected {
+    background: #ffdab3;
+}
+
+.ghx-issue:hover {
+    background: #ffccdd;
+}
+
+
+a[title=AtRisk]{
+      color:white;
+      background-color:red !important;
+ }
+
+a[title^='"Lead Project"'], a[title*='${CSS.escape('abels = "&')}']{
+    background-color:#ffe699 ;
+
+}
+
+a[title^='project']{
+background-color:#e6ffe6 ;
+}
+
+
+
+`,
+}
