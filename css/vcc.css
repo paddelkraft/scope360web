@@ -28,7 +28,7 @@ a[title*='"#']{
 
 
 
-a[title*='$PI']{
+a[title*='PI_']{
     background-color:PowderBlue   ;
 }
 
