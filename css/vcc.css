@@ -56,6 +56,12 @@ a[title=AtRisk]{
       background-color:red !important;
  }
 
+a[title^='fixVersion']{
+    background-color:#ffe699 ;
+
+}
+
+
 a[title^='"Lead Project"'], a[title*='${CSS.escape('abels = "&')}']{
     background-color:#ffe699 ;
 
